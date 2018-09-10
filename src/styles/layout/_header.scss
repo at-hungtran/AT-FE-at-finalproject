@@ -1,6 +1,5 @@
 .page-header {
   padding: 20px 0;
-  // position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -22,8 +21,9 @@
       padding-right: 60px;
     }
     .text-menu {
-      color: $color-1;
       text-transform: uppercase;
+      font-weight: 600;
+      color: $text-color-2;
       @include hover-transition(all 200ms ease-in-out);
       &:hover {
         color: $primary-color;

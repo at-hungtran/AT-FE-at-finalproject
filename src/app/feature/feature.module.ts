@@ -15,7 +15,6 @@ import { ShareModule } from '../share/share.module';
     CommonModule,
     RouterModule,
     FeatureRoutingModule,
-    HomeModule,
     ShareModule
   ]
 })

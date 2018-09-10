@@ -1,10 +1,14 @@
 .page-home {
   .section-search {
     padding: 160px 0 350px;
-    background: url('assets/images/bg_head_2.jpg') no-repeat fixed;
+    background: url('assets/images/bg_head_2.jpg') no-repeat;
     background-size: cover;
     position: relative;
     &::before {
+      content: '';
+      position: absolute;
+    }
+    &::after {
       content: '';
       position: absolute;
       top: 0;
@@ -161,7 +165,7 @@
     background: $bg-color;
     .wrap-title {
       position: relative;
-      background: url('assets/images/bg_body_1.jpg') no-repeat fixed;
+      background: url('assets/images/bg_body_1.jpg') no-repeat;
       background-size: cover;
       padding: 100px 0;
       &::before {
@@ -294,7 +298,7 @@
   .section-article {
     .wrap-title {
       position: relative;
-      background: url('assets/images/bg_body_2.jpg') no-repeat fixed;
+      background: url('assets/images/bg_body_2.jpg') no-repeat;
       background-size: cover;
       padding: 100px 0;
       &::before {
