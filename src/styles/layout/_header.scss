@@ -1,0 +1,78 @@
+.page-header {
+  padding: 20px 0;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // z-index: 2;
+  // background: #00000066;
+  // position: fixed;
+  .nav-bar {
+    height: 20px;
+    .logo-border {
+      width: 90px;
+      .logo-header {
+        width: 100%;
+      }
+    }
+    .logo-header {
+      float: left;
+      padding-right: 60px;
+    }
+    .text-menu {
+      color: $color-1;
+      text-transform: uppercase;
+      @include hover-transition(all 200ms ease-in-out);
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    .menu-center-item {
+      float: left;
+      padding-right: 40px;
+      font-size: $font-size-1;
+      line-height: 36px;
+    }
+    .menu-right-item {
+      float: right;
+      padding-left: 30px;
+      font-size: $font-size-2;
+      line-height: 36px;
+      .sign-up {
+        color: $primary-color;
+        @include hover-transition(all 200ms ease-in-out);
+      }
+      .sign-in {
+        background: $primary-color;
+        color: white;
+        padding: 15px 20px;
+        border-radius: 4px;
+        @include hover-transition(all 300ms ease-in-out);
+        &:hover {
+          background: $color-3;
+        }
+      }
+    }
+    .avatar-user {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+    }
+    .wrap-icon-notifi {
+      position: relative;
+      color: $color-0;
+      font-size: 13px;
+      .counter {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -8px;
+        left: 12px;
+        background: red;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

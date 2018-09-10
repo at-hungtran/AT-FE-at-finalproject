@@ -1,0 +1,59 @@
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-search {
+  padding: 14px;
+  font-size: 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: $color-0;
+  background: $primary-color;
+  cursor: pointer;
+  @include hover-transition(all 300ms ease-in-out);
+  &:hover {
+    background: $color-3;
+  }
+}
+
+.btn-tab {
+  padding: 12px 20px;
+  font-size: 15px;
+  background: $bg-color-2;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: $secondary-color;
+  color: $secondary-color;
+  box-sizing: border-box;
+  @include hover-transition(all 200ms ease-in-out);
+  &:hover {
+    background: $secondary-color;
+    color: $text-color-0;
+  }
+}
+
+.btn-read-more {
+  padding: 12px 20px;
+  color: $text-color-0;
+  background: $primary-color;
+  border: solid 1px;
+  border-color: $primary-color;
+  border-radius: 5px;
+  @include hover-transition(all 300ms ease-in-out);
+  &:hover {
+    background: white;
+    color: $primary-color;
+  }
+}
+
+.btn-view-all {
+  padding: 10px 50px;
+  font-size: 15px;
+  background: $bg-color-5;
+  color: $text-color-0;
+  border: solid 1px;
+  border-radius: 5px;
+  border-color: $color-0;
+}
