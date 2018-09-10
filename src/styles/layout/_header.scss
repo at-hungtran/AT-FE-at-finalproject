@@ -1,12 +1,14 @@
 .page-header {
   padding: 20px 0;
   // position: absolute;
-  // top: 0;
-  // left: 0;
-  // right: 0;
-  // z-index: 2;
-  // background: #00000066;
-  // position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background: $color-0;
+  position: fixed;
+  transition: top 0.2s ease-in-out;
+  @include box-shadow(0 2px 5px 0 rgba(0,0,0,.3));
   .nav-bar {
     height: 20px;
     .logo-border {

@@ -4,10 +4,11 @@ import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
+import { ScrollDirective } from '../../share/directive/scroll-directive';
 
 @NgModule({
   declarations: [
-    HomeComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,

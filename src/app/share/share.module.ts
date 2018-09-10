@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { HeaderComponent } from './component/header/header.component';
+import { ScrollDirective } from './directive/scroll-directive';
 
 @NgModule({
   declarations: [
-    HeaderComponent
+    HeaderComponent,
+    ScrollDirective
   ],
   imports: [
     CommonModule,
